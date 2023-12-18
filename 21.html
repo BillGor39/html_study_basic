@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Introduction to Tables</title>
+        <title>span table rows and columns</title>
         <style>
             table{
                 width: 700px;
@@ -24,6 +24,7 @@
         <table>
             <caption>My timetable</caption>
             <tr>
+                <td rowspan="6">Hours</td>
                 <th>Mon</th>
                 <th>Tues</th>
                 <th>Wed</th>
@@ -45,6 +46,12 @@
                 <td>Maths</td>
                 <td>Science</td>
                 <td>Sports</td>
+            </tr>
+
+            <tr>
+                <td colspan="5" style="text-align: center;">
+                    Lunch break
+                </td>
             </tr>
 
             <tr>
